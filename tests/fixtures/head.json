@@ -1,0 +1,19 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "component": {"type": "application", "name": "app", "version": "2.0.0", "purl": "pkg:pypi/app@2.0.0"}
+  },
+  "components": [
+    {"type": "library", "name": "requests_x", "version": "1", "purl": "pkg:pypi/requests_x@1"},
+    {"type": "library", "name": "requests", "version": "2.1", "purl": "pkg:pypi/requests@2.1?x=1#sub",
+     "licenses": [{"license": {"id": "MIT"}}]},
+    {"type": "library", "name": "dg", "version": "1.0.0", "purl": "pkg:npm/dg@1.0.0"},
+    {"type": "library", "name": "a", "group": "@scope", "version": "1", "purl": "pkg:npm/%40scope/a@1",
+     "components": [{"type": "library", "name": "nested", "version": "1.1"}]},
+    {"type": "library", "name": "lic", "version": "1.0", "purl": "pkg:npm/lic@1.0",
+     "licenses": [{"expression": "Apache-2.0 OR MIT"}]},
+    {"type": "library", "name": "multi", "group": "org", "version": "2.0"}
+  ]
+}

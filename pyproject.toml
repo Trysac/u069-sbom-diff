@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+sbom-diff = "sbom_diff.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u069-sbom-diff"
 Source = "https://github.com/Trysac/u069-sbom-diff"

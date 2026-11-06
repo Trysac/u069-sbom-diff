@@ -1,0 +1,53 @@
+{
+  "added": [
+    {
+      "key": "pkg:pypi/requests-x",
+      "licenses": [],
+      "version": "1"
+    }
+  ],
+  "changed": [
+    {
+      "after": "1.1",
+      "before": "1.0",
+      "key": "nested",
+      "kind": "upgrade"
+    },
+    {
+      "after": "2.0",
+      "before": "1.0,2.0",
+      "key": "org/multi",
+      "kind": "changed"
+    },
+    {
+      "after": "1.0.0",
+      "before": "2.0.0",
+      "key": "pkg:npm/dg",
+      "kind": "downgrade"
+    },
+    {
+      "after": "2.1",
+      "before": "2.0",
+      "key": "pkg:pypi/requests",
+      "kind": "upgrade"
+    }
+  ],
+  "license_changes": [
+    {
+      "after": [
+        "Apache-2.0 OR MIT"
+      ],
+      "before": [
+        "MIT"
+      ],
+      "key": "pkg:npm/lic"
+    }
+  ],
+  "removed": [
+    {
+      "key": "pkg:pypi/old",
+      "licenses": [],
+      "version": "1.0.0"
+    }
+  ]
+}
